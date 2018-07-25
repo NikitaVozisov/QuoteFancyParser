@@ -4,7 +4,7 @@ import urllib.request
 import time
 def get_html(url):
     response=requests.get(url)
-    return response.text #Returns page html code
+    return response.text #Returns html code
 def main():
     #Getting Links From Main Page
     url="https://quotefancy.com/"
